@@ -1,0 +1,27 @@
+#include<stdio.h>
+
+
+int main()
+{
+    int iValue1 = 0, iValue2 = 0, iResult = 0;
+
+    printf("Enter first Number :\n");
+    scanf("%d",&iValue1);
+
+    printf("Enter Second Number :\n");
+    scanf("%d",&iValue2);
+    
+    if(iValue1 > iValue2)
+    {
+        printf("Maximum is :%d\n",iValue1);
+    }
+    else
+    {
+        printf("Maximum is :%d\n",iValue2);
+    }
+
+    
+
+
+    return 0;
+}
